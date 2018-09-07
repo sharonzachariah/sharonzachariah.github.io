@@ -2,31 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://sharonzachariah.com/cooper/index.html</loc>
-    <lastmod>2018-08-22</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/coop%20on%20floorasset%202@2x-crop-u6797.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/coop%20on%20floorasset%202@2x-crop-u67972.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/coop%20on%20floorasset%202@2x-crop-u67973.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/coop%20on%20floorasset%202@2x-crop-u67974.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/coop%20on%20floorasset%202@2x-crop-u67975.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://sharonzachariah.com/cooper/contact.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://sharonzachariah.com/cooper/resume.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://sharonzachariah.com/cooper/arbor-green.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://sharonzachariah.com/cooper/cooper.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -176,28 +191,34 @@
     <image:image>
       <image:loc>http://sharonzachariah.com/cooper/images/cell%20yaasset%201@2x-crop-u4716.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/img_5498557x557.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/screenshot%202018-06-05%20234247-crop-u23905.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/img_5210-crop-u23784.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/img_5604-crop-u23665.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/img_5501-crop-u23425.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/cooper/images/screenshot%202018-09-05%20201728-crop-u28245.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://sharonzachariah.com/cooper/zen-juan.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://sharonzachariah.com/cooper/emotion-training.html</loc>
-    <lastmod>2018-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://sharonzachariah.com/cooper/bernadette.html</loc>
-    <lastmod>2018-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://sharonzachariah.com/cooper/bike-rental-kiosk.html</loc>
-    <lastmod>2018-09-06</lastmod>
+    <loc>http://sharonzachariah.com/cooper/research.html</loc>
+    <lastmod>2018-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
