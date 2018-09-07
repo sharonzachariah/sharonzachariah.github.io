@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com/cooper" resolutions="1x" timestamp="1536350765673">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com/cooper" resolutions="1x" timestamp="1536351294423">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="152849424" ref="cooper:contact:zen-juan:resume:arbor-green:index:research"/>
+    <file name="master_a-master.css" crc="143461621" ref="cooper:contact:zen-juan:resume:arbor-green:index:research"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="cooper:contact:zen-juan:resume:arbor-green:index:research"/>
-    <file name="index.css" crc="396480629" ref="index"/>
-    <file name="nomq_index.css" crc="3823556147" ref="index"/>
+    <file name="index.css" crc="103439355" ref="index"/>
+    <file name="nomq_index.css" crc="3871328970" ref="index"/>
     <file name="cooper.css" crc="4150416987" ref="cooper"/>
     <file name="nomq_cooper.css" crc="4078837343" ref="cooper"/>
     <file name="contact.css" crc="143099428" ref="contact"/>
@@ -250,7 +250,7 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="257417103" seo="true" mt="1536350686058" redirect="true"/>
+  <file name="index.html" crc="4079565117" seo="true" mt="1536351267856" redirect="true"/>
   <file name="contact.html" crc="390014024" seo="true" mt="1536346786326" redirect="true"/>
   <file name="resume.html" crc="4122799206" seo="true" mt="1536346786326" redirect="true"/>
   <file name="arbor-green.html" crc="4252260976" seo="true" mt="1536346786326" redirect="true"/>
