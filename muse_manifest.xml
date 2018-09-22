@@ -1,19 +1,23 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1536352039854">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537590117431">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="152849424" ref="index:cooper:contact:zen-juan:resume:arbor-green:research"/>
-    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:cooper:contact:zen-juan:resume:arbor-green:research"/>
-    <file name="index.css" crc="103439355" ref="index"/>
-    <file name="nomq_index.css" crc="3871328970" ref="index"/>
-    <file name="cooper.css" crc="4150416987" ref="cooper"/>
-    <file name="nomq_cooper.css" crc="4078837343" ref="cooper"/>
-    <file name="contact.css" crc="143099428" ref="contact"/>
-    <file name="zen-juan.css" crc="524150044" ref="zen-juan"/>
-    <file name="resume.css" crc="143099428" ref="resume"/>
-    <file name="arbor-green.css" crc="4112275165" ref="arbor-green"/>
-    <file name="nomq_arbor-green.css" crc="244143652" ref="arbor-green"/>
-    <file name="research.css" crc="4139011190" ref="research"/>
-    <file name="nomq_research.css" crc="3851389181" ref="research"/>
+    <file name="master_a-master.css" crc="501158748" ref="index:contact:resume"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index:contact:resume"/>
+    <file name="index.css" crc="337302357" ref="index"/>
+    <file name="nomq_index.css" crc="206439468" ref="index"/>
+    <file name="cooper.css" crc="366306852" ref="cooper"/>
+    <file name="nomq_cooper.css" crc="26003733" ref="cooper"/>
+    <file name="contact.css" crc="137648091" ref="contact"/>
+    <file name="zen-juan.css" crc="278826336" ref="zen-juan"/>
+    <file name="resume.css" crc="137648091" ref="resume"/>
+    <file name="arbor-green.css" crc="3798064857" ref="arbor-green"/>
+    <file name="nomq_arbor-green.css" crc="4087729620" ref="arbor-green"/>
+    <file name="research.css" crc="24493291" ref="research"/>
+    <file name="nomq_research.css" crc="3865678719" ref="research"/>
+    <file name="master_white-header.css" crc="416971633" ref="cooper:zen-juan:arbor-green:research"/>
+    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:zen-juan:arbor-green:research"/>
+    <file name="nomq_zen-juan.css" crc="3818182381" ref="zen-juan"/>
+    <file name="nomq_resume.css" crc="3824530138" ref="resume"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:resume:research:cooper:zen-juan:arbor-green"/>
@@ -21,7 +25,7 @@
     <file name="whatinput.js" crc="86476730" ref="index:contact:resume:research:cooper:zen-juan:arbor-green"/>
     <file name="museconfig.js" crc="4153641093" ref="index:contact:resume:research:cooper:zen-juan:arbor-green"/>
     <file name="jquery.watch.js" crc="99325471" ref="index:contact:resume:research:cooper:zen-juan:arbor-green"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:research:cooper:arbor-green"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:research:cooper:arbor-green:zen-juan"/>
     <file name="require.js" crc="4157109226" ref="index:contact:resume:research:cooper:zen-juan:arbor-green"/>
   </folder>
   <folder name="images">
@@ -37,7 +41,7 @@
     <file name="coop on floorasset 2@2x-crop-u103754.png" crc="534069686" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:research:cooper:arbor-green"/>
+    <file name="blank.gif" crc="4208392903" ref="index:research:cooper:arbor-green:zen-juan"/>
     <file name="artwork-35.svg" crc="4130105526" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
@@ -67,10 +71,10 @@
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork 41_poster_.png" crc="198157664" ref="cooper"/>
-    <file name="screenshot 2018-06-05 234247-crop-u2390.jpg" crc="3772132479" seo="true" ref="cooper">
+    <file name="screenshot 2018-06-05 234247-crop-u2390.jpg" crc="3836895091" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
-    <file name="img_5210-crop-u2378.jpg" crc="293683477" seo="true" ref="cooper">
+    <file name="img_5210-crop-u2378.jpg" crc="3892802659" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork-49.svg" crc="379995692" seo="true" ref="cooper">
@@ -87,13 +91,10 @@
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork 48_poster_.png" crc="4269807722" ref="cooper"/>
-    <file name="img_5498690x691.jpg" crc="434962504" seo="true" ref="cooper">
+    <file name="img_5604-crop-u2366.jpg" crc="3797086174" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
-    <file name="img_5604-crop-u2366.jpg" crc="4209549550" seo="true" ref="cooper">
-      <caption webpage="cooper" alt=""/>
-    </file>
-    <file name="img_5501-crop-u2342.jpg" crc="465742314" seo="true" ref="cooper">
+    <file name="img_5501-crop-u2342.jpg" crc="3835004379" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork-50.svg" crc="3850727383" seo="true" ref="cooper">
@@ -108,7 +109,7 @@
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
     </file>
-    <file name="screenshot 2018-09-05 201728-crop-u2824.jpg" crc="4084142943" seo="true" ref="cooper">
+    <file name="screenshot 2018-09-05 201728-crop-u2824.jpg" crc="4253590902" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="screenshot 2018-09-05 202820.jpg" crc="281273229" seo="true" ref="cooper">
@@ -211,7 +212,7 @@
     <file name="bpmasset 1@2x.png" crc="4043091503" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
-    <file name="guitar connasset 3@2x-crop-u4485.png" crc="3948263726" seo="true" ref="cooper">
+    <file name="guitar connasset 3@2x-crop-u4485.png" crc="524403553" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="img_5498-crop-u2330.jpg" crc="263666693" seo="true" ref="cooper">
@@ -244,12 +245,79 @@
     <file name="cell yaasset 1@2x-crop-u4716.png" crc="282288007" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
+    <file name="arrow-point-to-right.svg" crc="17987577" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="arrow-point-to-right_poster_.png" crc="159485471" ref="research"/>
+    <file name="bnw cultural model1400x495.jpg" crc="4164538360" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x.png" crc="4041016392" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork-54.svg" crc="61807767" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork 54_poster_.png" crc="230333522" ref="research"/>
+    <file name="artwork-55.svg" crc="408867001" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork 55_poster_.png" crc="222607333" ref="research"/>
+    <file name="artwork-57.svg" crc="4195166486" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork 57_poster_.png" crc="408733931" ref="research"/>
+    <file name="pasted image 225x225.jpg" crc="3948255635" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model1160x410.jpg" crc="503729878" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model958x339.jpg" crc="4169726302" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x624x311.png" crc="194596842" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model-crop-u24153.jpg" crc="45591458" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x450x224.png" crc="8842089" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="img_5498672x672.jpg" crc="359219821" seo="true" ref="cooper">
+      <caption webpage="cooper" alt=""/>
+    </file>
+    <file name="sold.jpg" crc="317943397" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sold360x450.jpg" crc="3789695427" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="374450201" seo="true" mt="1536351267856" redirect="true"/>
-  <file name="contact.html" crc="306156337" seo="true" mt="1536346786326" redirect="true"/>
-  <file name="resume.html" crc="4053283736" seo="true" mt="1536346786326" redirect="true"/>
-  <file name="research.html" crc="163674608" seo="true" mt="1536346953547" redirect="true"/>
-  <file name="cooper.html" crc="3905076076" seo="true" mt="1536346798033" redirect="true"/>
-  <file name="zen-juan.html" crc="3859296478" seo="true" mt="1536346786326" redirect="true"/>
-  <file name="arbor-green.html" crc="3791661290" seo="true" mt="1536346786326" redirect="true"/>
+  <file name="index.html" crc="4155611856" seo="true" mt="1537589939321" redirect="true"/>
+  <file name="contact.html" crc="3859556219" seo="true" mt="1537537120946" redirect="true"/>
+  <file name="resume.html" crc="173803988" seo="true" mt="1537537120946" redirect="true"/>
+  <file name="research.html" crc="4119721113" seo="true" mt="1537589225565" redirect="true"/>
+  <file name="cooper.html" crc="4086410611" seo="true" mt="1537537209183" redirect="true"/>
+  <file name="zen-juan.html" crc="3917729337" seo="true" mt="1537537366360" redirect="true"/>
+  <file name="arbor-green.html" crc="156319487" seo="true" mt="1537537205584" redirect="true"/>
 </manifest>

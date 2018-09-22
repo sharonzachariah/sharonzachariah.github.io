@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.288 298.834">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2d2d2d;
+      }
+
+      .cls-2 {
+        fill: #494848;
+      }
+
+      .cls-3 {
+        fill: #ff6652;
+        opacity: 0.81;
+      }
+    </style>
+  </defs>
+  <title>cdb9096e-3577-4723-9eeb-89adf86f46dc</title>
+  <g>
+    <ellipse class="cls-1" cx="20.5" cy="293.085" rx="20.5" ry="5.5"/>
+    <rect class="cls-2" x="28.322" y="-0.583" width="10" height="300" rx="5" ry="5" transform="translate(13.521 -2.385) rotate(5.14)"/>
+    <polygon class="cls-3" points="51.204 6.444 38.75 144.885 204.288 90.498 51.204 6.444"/>
+  </g>
+</svg>
