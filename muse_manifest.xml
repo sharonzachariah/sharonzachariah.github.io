@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537590117431">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537590438477">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="501158748" ref="index:contact:resume"/>
@@ -12,8 +12,8 @@
     <file name="resume.css" crc="137648091" ref="resume"/>
     <file name="arbor-green.css" crc="3798064857" ref="arbor-green"/>
     <file name="nomq_arbor-green.css" crc="4087729620" ref="arbor-green"/>
-    <file name="research.css" crc="24493291" ref="research"/>
-    <file name="nomq_research.css" crc="3865678719" ref="research"/>
+    <file name="research.css" crc="4127271849" ref="research"/>
+    <file name="nomq_research.css" crc="3792151629" ref="research"/>
     <file name="master_white-header.css" crc="416971633" ref="cooper:zen-juan:arbor-green:research"/>
     <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:zen-juan:arbor-green:research"/>
     <file name="nomq_zen-juan.css" crc="3818182381" ref="zen-juan"/>
@@ -289,13 +289,10 @@
     <file name="bnw cultural model1160x410.jpg" crc="503729878" seo="true" ref="research">
       <caption webpage="research" alt=""/>
     </file>
-    <file name="bnw cultural model958x339.jpg" crc="4169726302" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
     <file name="greyasset 31@2x624x311.png" crc="194596842" seo="true" ref="research">
       <caption webpage="research" alt=""/>
     </file>
-    <file name="bnw cultural model-crop-u24153.jpg" crc="45591458" seo="true" ref="research">
+    <file name="bnw cultural model-crop-u24153.jpg" crc="474692184" seo="true" ref="research">
       <caption webpage="research" alt=""/>
     </file>
     <file name="greyasset 31@2x450x224.png" crc="8842089" seo="true" ref="research">
@@ -312,11 +309,14 @@
     <file name="sold360x450.jpg" crc="3789695427" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="bnw cultural model960x339.jpg" crc="496880653" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="4155611856" seo="true" mt="1537589939321" redirect="true"/>
   <file name="contact.html" crc="3859556219" seo="true" mt="1537537120946" redirect="true"/>
   <file name="resume.html" crc="173803988" seo="true" mt="1537537120946" redirect="true"/>
-  <file name="research.html" crc="4119721113" seo="true" mt="1537589225565" redirect="true"/>
+  <file name="research.html" crc="3911887363" seo="true" mt="1537590416221" redirect="true"/>
   <file name="cooper.html" crc="4086410611" seo="true" mt="1537537209183" redirect="true"/>
   <file name="zen-juan.html" crc="3917729337" seo="true" mt="1537537366360" redirect="true"/>
   <file name="arbor-green.html" crc="156319487" seo="true" mt="1537537205584" redirect="true"/>
