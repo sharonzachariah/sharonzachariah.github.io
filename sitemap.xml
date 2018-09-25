@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://sharonzachariah.github.io/index.html</loc>
-    <lastmod>2018-09-22</lastmod>
+    <lastmod>2018-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -23,22 +23,28 @@
     <image:image>
       <image:loc>http://sharonzachariah.github.io/images/sold360x450.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://sharonzachariah.github.io/contact.html</loc>
-    <lastmod>2018-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://sharonzachariah.github.io/resume.html</loc>
-    <lastmod>2018-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/just-browser.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mock%20mobasset%2011@2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/ag%20gif%201.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://sharonzachariah.github.io/research.html</loc>
-    <lastmod>2018-09-22</lastmod>
+    <lastmod>2018-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -77,10 +83,64 @@
     <image:image>
       <image:loc>http://sharonzachariah.github.io/images/bnw%20cultural%20model960x339.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.github.io/contact.html</loc>
+    <lastmod>2018-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.github.io/resume.html</loc>
+    <lastmod>2018-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.github.io/zen-juan.html</loc>
+    <lastmod>2018-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://sharonzachariah.github.io/cooper.html</loc>
-    <lastmod>2018-09-21</lastmod>
+    <lastmod>2018-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -248,16 +308,127 @@
     <image:image>
       <image:loc>http://sharonzachariah.github.io/images/img_5498672x672.jpg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://sharonzachariah.github.io/zen-juan.html</loc>
-    <lastmod>2018-09-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://sharonzachariah.github.io/arbor-green.html</loc>
-    <lastmod>2018-09-21</lastmod>
+    <lastmod>2018-09-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/ag%20gif%201.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/github-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mock%20dsktpasset%209@2x-crop-u27784.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/profession-desktop.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/targeting.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mobile-green-mockup.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/arbor-green-home-page.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/task%20completion.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/screenshot%202018-09-24%20164605-crop-u31718.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_5663%202558x419.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/filters.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/job-description-copy-14.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6319670x503.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6341-crop-u33468.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/jd1.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/jd2.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/jd3.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mock%20dsktpasset%209@2x-crop-u277842.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/screenshot%202018-09-24%20164605-crop-u317182.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_5663%202462x347.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6319556x417.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6341-crop-u334682.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mock%20dsktpasset%209@2x-crop-u277843.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/screenshot%202018-09-24%20164605-crop-u317183.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_5663%202383x287.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6319460x345.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6341-crop-u334683.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/mock%20dsktpasset%209@2x-crop-u277844.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/screenshot%202018-09-24%20164605-crop-u317184.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_5663%202485x364.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6319480x361.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.github.io/images/img_6341-crop-u334684.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.github.io/assets/profession-desktop.webp</loc>
+    <lastmod>2018-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
