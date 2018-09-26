@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537968650027">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537969275433">
   <folder name="assets">
     <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
   </folder>
@@ -6,8 +6,8 @@
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="7188909" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="508770084" ref="index"/>
-    <file name="index.css" crc="459549540" ref="index"/>
-    <file name="nomq_index.css" crc="115866133" ref="index"/>
+    <file name="index.css" crc="152590980" ref="index"/>
+    <file name="nomq_index.css" crc="3991953708" ref="index"/>
     <file name="cooper.css" crc="453215136" ref="cooper"/>
     <file name="nomq_cooper.css" crc="196797088" ref="cooper"/>
     <file name="arbor-green.css" crc="3792827571" ref="arbor-green"/>
@@ -330,9 +330,6 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
     <file name="linkedin-logo.svg" crc="53867140" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
@@ -342,23 +339,23 @@
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
       <caption webpage="resume" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
     </file>
-    <file name="linkedin-logo_poster_.png" crc="3994403120" ref="index:research"/>
+    <file name="linkedin-logo_poster_.png" crc="3994403120" ref="index"/>
     <file name="envelope.svg" crc="4008417060" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
@@ -368,23 +365,23 @@
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
       <caption webpage="resume" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
     </file>
-    <file name="envelope_poster_.png" crc="3859148872" ref="index:research"/>
+    <file name="envelope_poster_.png" crc="3859148872" ref="index"/>
     <file name="github-logo.svg" crc="3988996036" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
@@ -394,19 +391,22 @@
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
       <caption webpage="resume" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
       <caption webpage="contact" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
+      <caption webpage="zen-juan" alt=""/>
     </file>
-    <file name="github-logo_poster_.png" crc="3918314536" ref="index:research"/>
+    <file name="github-logo_poster_.png" crc="3918314536" ref="index"/>
     <file name="mock dsktpasset 9@2x-crop-u27784.png" crc="4187512592" seo="true" ref="arbor-green">
       <caption webpage="arbor-green" alt=""/>
     </file>
@@ -557,8 +557,8 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4151126328" seo="true" mt="1537968020780" redirect="true"/>
-  <file name="research.html" crc="3927858923" seo="true" mt="1537968620739" redirect="true"/>
-  <file name="cooper.html" crc="3845204629" seo="true" mt="1537968620739" redirect="true"/>
-  <file name="arbor-green.html" crc="3982508603" seo="true" mt="1537968620739" redirect="true"/>
+  <file name="index.html" crc="4074137264" seo="true" mt="1537969227979" redirect="true"/>
+  <file name="research.html" crc="3940043006" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="cooper.html" crc="319887022" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="arbor-green.html" crc="339572855" seo="true" mt="1537969159107" redirect="true"/>
 </manifest>
