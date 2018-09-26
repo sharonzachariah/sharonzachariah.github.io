@@ -1,30 +1,32 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1537982241160">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1537985274991">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research"/>
-    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:arbor-green:research"/>
+    <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research:tinker"/>
+    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:arbor-green:research:tinker"/>
     <file name="master_a-master.css" crc="7188909" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="508770084" ref="index"/>
-    <file name="index.css" crc="152590980" ref="index"/>
-    <file name="nomq_index.css" crc="3991953708" ref="index"/>
+    <file name="index.css" crc="499476340" ref="index"/>
+    <file name="nomq_index.css" crc="3897338154" ref="index"/>
     <file name="cooper.css" crc="453215136" ref="cooper"/>
     <file name="nomq_cooper.css" crc="196797088" ref="cooper"/>
     <file name="arbor-green.css" crc="3792827571" ref="arbor-green"/>
     <file name="nomq_arbor-green.css" crc="4099987020" ref="arbor-green"/>
     <file name="research.css" crc="4009588296" ref="research"/>
     <file name="nomq_research.css" crc="24059729" ref="research"/>
+    <file name="tinker.css" crc="3949293396" ref="tinker"/>
+    <file name="nomq_tinker.css" crc="4046587115" ref="tinker"/>
   </folder>
   <folder name="assets">
     <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:research:cooper:arbor-green"/>
-    <file name="museutils.js" crc="3803043152" ref="index:research:cooper:arbor-green"/>
-    <file name="whatinput.js" crc="86476730" ref="index:research:cooper:arbor-green"/>
-    <file name="museconfig.js" crc="4051681101" ref="index:research:cooper:arbor-green"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:research:cooper:arbor-green"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:research:cooper:arbor-green"/>
-    <file name="require.js" crc="4157109226" ref="index:research:cooper:arbor-green"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="museutils.js" crc="3803043152" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="whatinput.js" crc="86476730" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:research:cooper:arbor-green:tinker"/>
+    <file name="require.js" crc="4157109226" ref="index:research:cooper:arbor-green:tinker"/>
   </folder>
   <folder name="images">
     <file name="sold.jpg" crc="317943397" seo="true" ref="index">
@@ -61,7 +63,7 @@
     <file name="coop on floorasset 2@2x-crop-u10375.png" crc="525339635" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="linkedin-logo.svg" crc="53867140" seo="true" ref="index:research:cooper:arbor-green">
+    <file name="linkedin-logo.svg" crc="53867140" seo="true" ref="index:research:cooper:arbor-green:tinker">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -80,9 +82,14 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
     </file>
     <file name="linkedin-logo_poster_.png" crc="3994403120" ref="index"/>
-    <file name="envelope.svg" crc="4008417060" seo="true" ref="index:research:cooper:arbor-green">
+    <file name="envelope.svg" crc="4008417060" seo="true" ref="index:research:cooper:arbor-green:tinker">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -101,9 +108,14 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
     </file>
     <file name="envelope_poster_.png" crc="3859148872" ref="index"/>
-    <file name="github-logo.svg" crc="3988996036" seo="true" ref="index:research:cooper:arbor-green">
+    <file name="github-logo.svg" crc="3988996036" seo="true" ref="index:research:cooper:arbor-green:tinker">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -122,6 +134,11 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
+      <caption webpage="tinker" alt=""/>
     </file>
     <file name="github-logo_poster_.png" crc="3918314536" ref="index"/>
     <file name="coop on floorasset 2@2x-crop-u103752.png" crc="4292786910" seo="true" ref="index">
@@ -136,7 +153,7 @@
     <file name="coop on floorasset 2@2x-crop-u103754.png" crc="534069686" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:research:cooper:arbor-green"/>
+    <file name="blank.gif" crc="4208392903" ref="index:research:cooper:arbor-green:tinker"/>
     <file name="arrow-point-to-right.svg" crc="17987577" seo="true" ref="research">
       <caption webpage="research" alt=""/>
       <caption webpage="research" alt=""/>
@@ -542,8 +559,9 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3840915410" seo="true" mt="1537969227979" redirect="true"/>
+  <file name="index.html" crc="3820375268" seo="true" mt="1537984963618" redirect="true"/>
   <file name="research.html" crc="33351956" seo="true" mt="1537969159107" redirect="true"/>
   <file name="cooper.html" crc="3824202531" seo="true" mt="1537969159107" redirect="true"/>
   <file name="arbor-green.html" crc="513053216" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="tinker.html" crc="4238574047" seo="true" mt="1537985243994" redirect="true"/>
 </manifest>
