@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1537985274991">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1538002405878">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research:tinker"/>
@@ -7,17 +7,19 @@
     <file name="nomq_preview_master_a-master.css" crc="508770084" ref="index"/>
     <file name="index.css" crc="499476340" ref="index"/>
     <file name="nomq_index.css" crc="3897338154" ref="index"/>
-    <file name="cooper.css" crc="453215136" ref="cooper"/>
-    <file name="nomq_cooper.css" crc="196797088" ref="cooper"/>
-    <file name="arbor-green.css" crc="3792827571" ref="arbor-green"/>
-    <file name="nomq_arbor-green.css" crc="4099987020" ref="arbor-green"/>
-    <file name="research.css" crc="4009588296" ref="research"/>
-    <file name="nomq_research.css" crc="24059729" ref="research"/>
+    <file name="cooper.css" crc="349867839" ref="cooper"/>
+    <file name="nomq_cooper.css" crc="503227064" ref="cooper"/>
+    <file name="arbor-green.css" crc="3929216188" ref="arbor-green"/>
+    <file name="nomq_arbor-green.css" crc="257771483" ref="arbor-green"/>
+    <file name="research.css" crc="4056165226" ref="research"/>
+    <file name="nomq_research.css" crc="38370880" ref="research"/>
     <file name="tinker.css" crc="3949293396" ref="tinker"/>
     <file name="nomq_tinker.css" crc="4046587115" ref="tinker"/>
   </folder>
   <folder name="assets">
     <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
+    <file name="1asset-18@2x.png" crc="120247757" seo="true" mt="1538002096000"/>
+    <file name="2asset-19@2x.png" crc="4192147880" seo="true" mt="1538002113000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:research:cooper:arbor-green:tinker"/>
@@ -559,9 +561,9 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3820375268" seo="true" mt="1537984963618" redirect="true"/>
-  <file name="research.html" crc="33351956" seo="true" mt="1537969159107" redirect="true"/>
-  <file name="cooper.html" crc="3824202531" seo="true" mt="1537969159107" redirect="true"/>
-  <file name="arbor-green.html" crc="513053216" seo="true" mt="1537969159107" redirect="true"/>
-  <file name="tinker.html" crc="4238574047" seo="true" mt="1537985243994" redirect="true"/>
+  <file name="index.html" crc="3804367300" seo="true" mt="1537999636696" redirect="true"/>
+  <file name="research.html" crc="243096512" seo="true" mt="1538002166550" redirect="true"/>
+  <file name="cooper.html" crc="518834447" seo="true" mt="1538002235420" redirect="true"/>
+  <file name="arbor-green.html" crc="56645163" seo="true" mt="1538002216639" redirect="true"/>
+  <file name="tinker.html" crc="4128437928" seo="true" mt="1537985576624" redirect="true"/>
 </manifest>

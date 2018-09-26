@@ -43,6 +43,54 @@
     </image:image>
   </url>
   <url>
+    <loc>http://sharonzachariah.com/research.html</loc>
+    <lastmod>2018-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/linkedin-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/envelope.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/github-logo.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/arrow-point-to-right.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model1400x495.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/artwork-54.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/artwork-57.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/pasted%20image%20225x225.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model1160x410.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model960x339.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x624x311.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model-crop-u24153.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x450x224.png</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://sharonzachariah.com/cooper.html</loc>
     <lastmod>2018-09-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -223,54 +271,6 @@
     </image:image>
   </url>
   <url>
-    <loc>http://sharonzachariah.com/research.html</loc>
-    <lastmod>2018-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/linkedin-logo.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/envelope.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/github-logo.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/arrow-point-to-right.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model1400x495.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/artwork-54.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/artwork-57.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/pasted%20image%20225x225.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model1160x410.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model960x339.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x624x311.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/bnw%20cultural%20model-crop-u24153.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://sharonzachariah.com/images/greyasset%2031@2x450x224.png</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>http://sharonzachariah.com/arbor-green.html</loc>
     <lastmod>2018-09-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -396,6 +396,18 @@
   <url>
     <loc>http://sharonzachariah.com/assets/profession-desktop.webp</loc>
     <lastmod>2018-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.com/assets/1asset-18@2x.png</loc>
+    <lastmod>2018-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://sharonzachariah.com/assets/2asset-19@2x.png</loc>
+    <lastmod>2018-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
