@@ -1,9 +1,8 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.github.io" resolutions="1x" timestamp="1537969275433">
-  <folder name="assets">
-    <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
-  </folder>
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1537982241160">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
+    <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research"/>
+    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:arbor-green:research"/>
     <file name="master_a-master.css" crc="7188909" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="508770084" ref="index"/>
     <file name="index.css" crc="152590980" ref="index"/>
@@ -14,8 +13,9 @@
     <file name="nomq_arbor-green.css" crc="4099987020" ref="arbor-green"/>
     <file name="research.css" crc="4009588296" ref="research"/>
     <file name="nomq_research.css" crc="24059729" ref="research"/>
-    <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research"/>
-    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:arbor-green:research"/>
+  </folder>
+  <folder name="assets">
+    <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:research:cooper:arbor-green"/>
@@ -27,19 +27,165 @@
     <file name="require.js" crc="4157109226" ref="index:research:cooper:arbor-green"/>
   </folder>
   <folder name="images">
+    <file name="sold.jpg" crc="317943397" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="just-browser.svg" crc="224420233" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="just browser_poster_.png" crc="4020019025" ref="index"/>
+    <file name="mock mobasset 11@2x.png" crc="61020116" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ag gif 1.gif" crc="96097640" seo="true" ref="index:arbor-green">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+    </file>
     <file name="coop on floorasset 2@2x-crop-u10375.png" crc="525339635" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="linkedin-logo.svg" crc="53867140" seo="true" ref="index:research:cooper:arbor-green">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+    </file>
+    <file name="linkedin-logo_poster_.png" crc="3994403120" ref="index"/>
+    <file name="envelope.svg" crc="4008417060" seo="true" ref="index:research:cooper:arbor-green">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+    </file>
+    <file name="envelope_poster_.png" crc="3859148872" ref="index"/>
+    <file name="github-logo.svg" crc="3988996036" seo="true" ref="index:research:cooper:arbor-green">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="cooper" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+      <caption webpage="arbor-green" alt=""/>
+    </file>
+    <file name="github-logo_poster_.png" crc="3918314536" ref="index"/>
     <file name="coop on floorasset 2@2x-crop-u103752.png" crc="4292786910" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="coop on floorasset 2@2x-crop-u103753.png" crc="3830220848" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="sold360x450.jpg" crc="3789695427" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="coop on floorasset 2@2x-crop-u103754.png" crc="534069686" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:research:cooper:arbor-green"/>
+    <file name="arrow-point-to-right.svg" crc="17987577" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="arrow-point-to-right_poster_.png" crc="159485471" ref="research"/>
+    <file name="bnw cultural model1400x495.jpg" crc="3955083297" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x.png" crc="4041016392" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork-54.svg" crc="61807767" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork 54_poster_.png" crc="230333522" ref="research"/>
+    <file name="artwork-57.svg" crc="4195166486" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="artwork 57_poster_.png" crc="408733931" ref="research"/>
+    <file name="pasted image 225x225.jpg" crc="3948255635" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model1160x410.jpg" crc="6953857" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model960x339.jpg" crc="3913454407" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x624x311.png" crc="194596842" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="bnw cultural model-crop-u24153.jpg" crc="3868879327" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
+    <file name="greyasset 31@2x450x224.png" crc="8842089" seo="true" ref="research">
+      <caption webpage="research" alt=""/>
+    </file>
     <file name="artwork-35.svg" crc="4130105526" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
@@ -89,6 +235,9 @@
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork 48_poster_.png" crc="4269807722" ref="cooper"/>
+    <file name="img_5498672x672.jpg" crc="359219821" seo="true" ref="cooper">
+      <caption webpage="cooper" alt=""/>
+    </file>
     <file name="img_5604-crop-u2366.jpg" crc="3797086174" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
@@ -243,170 +392,6 @@
     <file name="cell yaasset 1@2x-crop-u4716.png" crc="282288007" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
-    <file name="arrow-point-to-right.svg" crc="17987577" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="arrow-point-to-right_poster_.png" crc="159485471" ref="research"/>
-    <file name="bnw cultural model1400x495.jpg" crc="3955083297" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="greyasset 31@2x.png" crc="4041016392" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="artwork-54.svg" crc="61807767" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="artwork 54_poster_.png" crc="230333522" ref="research"/>
-    <file name="artwork-57.svg" crc="4195166486" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="artwork 57_poster_.png" crc="408733931" ref="research"/>
-    <file name="pasted image 225x225.jpg" crc="3948255635" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="bnw cultural model1160x410.jpg" crc="6953857" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="greyasset 31@2x624x311.png" crc="194596842" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="bnw cultural model-crop-u24153.jpg" crc="3868879327" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="greyasset 31@2x450x224.png" crc="8842089" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="img_5498672x672.jpg" crc="359219821" seo="true" ref="cooper">
-      <caption webpage="cooper" alt=""/>
-    </file>
-    <file name="sold.jpg" crc="317943397" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="sold360x450.jpg" crc="3789695427" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="bnw cultural model960x339.jpg" crc="3913454407" seo="true" ref="research">
-      <caption webpage="research" alt=""/>
-    </file>
-    <file name="just-browser.svg" crc="224420233" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="just browser_poster_.png" crc="4020019025" ref="index"/>
-    <file name="mock mobasset 11@2x.png" crc="61020116" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="ag gif 1.gif" crc="96097640" seo="true" ref="index:arbor-green">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-    </file>
-    <file name="linkedin-logo.svg" crc="53867140" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-    </file>
-    <file name="linkedin-logo_poster_.png" crc="3994403120" ref="index"/>
-    <file name="envelope.svg" crc="4008417060" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-    </file>
-    <file name="envelope_poster_.png" crc="3859148872" ref="index"/>
-    <file name="github-logo.svg" crc="3988996036" seo="true" ref="index:research:cooper:arbor-green">
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="cooper" alt=""/>
-      <caption webpage="resume" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="arbor-green" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-      <caption webpage="zen-juan" alt=""/>
-    </file>
-    <file name="github-logo_poster_.png" crc="3918314536" ref="index"/>
     <file name="mock dsktpasset 9@2x-crop-u27784.png" crc="4187512592" seo="true" ref="arbor-green">
       <caption webpage="arbor-green" alt=""/>
     </file>
@@ -557,8 +542,8 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4074137264" seo="true" mt="1537969227979" redirect="true"/>
-  <file name="research.html" crc="3940043006" seo="true" mt="1537969159107" redirect="true"/>
-  <file name="cooper.html" crc="319887022" seo="true" mt="1537969159107" redirect="true"/>
-  <file name="arbor-green.html" crc="339572855" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="index.html" crc="3840915410" seo="true" mt="1537969227979" redirect="true"/>
+  <file name="research.html" crc="33351956" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="cooper.html" crc="3824202531" seo="true" mt="1537969159107" redirect="true"/>
+  <file name="arbor-green.html" crc="513053216" seo="true" mt="1537969159107" redirect="true"/>
 </manifest>
