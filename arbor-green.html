@@ -17,12 +17,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Arbor Green</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_white-header.css?crc=400200230"/>
-  <link rel="stylesheet" type="text/css" href="css/arbor-green.css?crc=47612529" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_white-header.css?crc=4249227924"/>
+  <link rel="stylesheet" type="text/css" href="css/arbor-green.css?crc=4079906279" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_white-header.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_arbor-green.css?crc=510373116" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_arbor-green.css?crc=4099987020" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -30,7 +30,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </script>
   <!-- JS includes -->
   <script src="https://webfonts.creativecloud.com/sansita-one:n4:default.js" type="text/javascript"></script>
-  <script src="https://use.typekit.net/ik/GdhfL8D7MdnhAmVDd-xh7S5Vo2okNvCyP6QxhVEIoVMfelSgfFroG3bPH26oFRqXwD8LjQs8wcmcZRjX5QwojRqXwQIkZQgcjhJt5eBcFQjaZA9-9kG0ShyyScN0pcBR-eBk-ABGOciTieyujKoTdkUD-eBkdhoEjAFGjW4TjA60Zh8X-YmKOc8zOYiaikoD-eBkdhoEjAFGjW4TjA60Zh8X-YmKOc8zJ6U3ScNt-AuyOAozicI7fbKOMsMMeMS6MKGHfO2IMsMMeM96MKG4fHXgIMMjgKMfH6qJn3IbMg6IJMJ7fbK3MsMMeMt6MqGIQWmDZZMgo7K7ab9.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/BLZrTf-WFY0bAPTw5Bm8_UCQCVX79M0PWU1Y2jpXiR3felSgfFroG3bPH26oFRqXwD8LjQs8wcmcZRjX5QwojRqXwQIkZQgcjhJt5eBcFQjaZA9-9kG0ShyyScN0pcBR-eBk-ABGOciTieyujKoTdkUD-eBkdhoEjAFGjW4TjA60Zh8X-YmKOc8zOYiaikoD-eBkdhoEjAFGjW4TjA60Zh8X-YmKOc8zJ6U3ScNt-AuyOAozicI7fbKOMsMMeMS6MKGHfO2IMsMMeM96MKG4fHXgIMMjgKMfH6qJn3IbMg6IJMJ7fbK3MsMMeMt6MqGIQWmDZZMgGTcnab9.js" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
@@ -83,9 +83,493 @@ transform-origin: center;
 }
 </style>
 
+<style>
+body {
+	min-height: 100vh;
+}
+
+.global-menu {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 100;
+}
+
+.global-menu__wrap a {
+	color: #FFFFFF;
+	font-family: inherit;
+	font-size: 3vmax;
+	line-height: 2;
+	opacity: 0;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+	letter-spacing: 1px;
+	pointer-events: none;
+	display: block;
+	margin: 0.25em 0;
+}
+
+.global-menu__item {
+	transform: translateY(-100%);
+	transition: transform 0.3s, opacity 0.3s;
+	transition-timing-function: ease-in;
+}
+
+.global-menu__wrap a:hover,
+.global-menu__wrap a:focus {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.global-menu__item--demo-6 {
+	transform: translateY(100%);
+}
+
+.global-menu__item:hover {
+	color: var(--color-menu-hover);
+}
+
+.global-menu__item.is-opened {
+	opacity: 1;
+	transform: translateY(0) rotate(0);
+	pointer-events: auto;
+	transition-timing-function: ease;
+}
+
+.global-menu__item--demo-6.is-opened {
+	transition-duration: 0.8s;
+}
+
+.global-menu__item--demo-6:nth-of-type(1) {
+	transition-delay: 0.55s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(1) {
+	transition-delay: 1s;
+}
+
+.global-menu__item--demo-6:nth-of-type(2) {
+	transition-delay: 0.5s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(2) {
+	transition-delay: 1.1s;
+}
+
+.global-menu__item--demo-6:nth-of-type(3) {
+	transition-delay: 0.45s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(3) {
+	transition-delay: 1.2s;
+}
+
+.global-menu__item--demo-6:nth-of-type(4) {
+	transition-delay: 0.4s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(4) {
+	transition-delay: 1.3s;
+}
+
+.global-menu__item--demo-6:nth-of-type(5) {
+	transition-delay: 0.35s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(5) {
+	transition-delay: 1.4s;
+}
+
+.global-menu__item--demo-6:nth-of-type(6) {
+	transition-delay: 0.3s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(6) {
+	transition-delay: 1.5s;
+}
+
+.global-menu__item--demo-6:nth-of-type(7) {
+	transition-delay: 0.25s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(7) {
+	transition-delay: 1.6s;
+}
+
+.global-menu__item--demo-6:nth-of-type(8) {
+	transition-delay: 0.2s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(8) {
+	transition-delay: 1.7s;
+}
+
+.global-menu__item--demo-6:nth-of-type(9) {
+	transition-delay: 0.15s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(9) {
+	transition-delay: 1.8s;
+}
+
+.global-menu__item--demo-6:nth-of-type(10) {
+	transition-delay: 0.1s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(10) {
+	transition-delay: 1.9s;
+}
+
+.global-menu__item--demo-6:nth-of-type(11) {
+	transition-delay: 0.05s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(11) {
+	transition-delay: 2s;
+}
+
+.global-menu__item--demo-6:nth-of-type(12) {
+	transition-delay: 0s;
+}
+
+.global-menu__item--demo-6.is-opened:nth-of-type(12) {
+	transition-delay: 2.1s;
+}
+
+
+.shape-overlays {
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.shape-overlays.is-opened {
+	pointer-events: auto;
+}
+
+.shape-overlays__path:nth-of-type(1) {
+	fill: url(#gradient1);
+}
+
+.shape-overlays__path:nth-of-type(2) {
+	fill: url(#gradient2);
+}
+
+.shape-overlays__path:nth-of-type(3) {
+	fill: url(#gradient3);
+}
+
+@-webkit-keyframes intervalHamburgerBorder {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	80% {
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+}
+
+@keyframes intervalHamburgerBorder {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	80% {
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+}
+
+.hamburger {
+	width: 64px;
+	height: 64px;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	z-index: 110;
+	border-radius: 50%;
+	background-color: transparent;
+	pointer-events: auto;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.hamburger::after {
+	width: 64px;
+	height: 64px;
+	box-sizing: border-box;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	border: 0px solid #6B6B6B;
+	border-radius: 50%;
+	-webkit-animation-duration: 1.2s;
+	animation-duration: 1.2s;
+	-webkit-animation-name: intervalHamburgerBorder;
+	animation-name: intervalHamburgerBorder;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+.hamburger__line {
+	width: 28px;
+	height: 2px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+}
+
+.hamburger__line-in {
+	width: 84px;
+	height: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.hamburger__line-in::before,
+.hamburger__line-in::after {
+	width: 28px;
+	height: 2px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+.hamburger__line-in::before {
+	left: -56px;
+}
+
+.hamburger__line-in::after {
+	left: 0;
+}
+
+.hamburger__line--01,
+.hamburger__line--02,
+.hamburger__line--03,
+.hamburger__line--cross01,
+.hamburger__line--cross02 {
+	left: 18px;
+}
+
+.hamburger__line--01 {
+	top: 24.6px;
+}
+
+.hamburger__line--02,
+.hamburger__line--cross01,
+.hamburger__line--cross02 {
+	top: 31px;
+}
+
+.hamburger__line--03 {
+	top: 37.4px;
+}
+
+.hamburger__line--cross01 {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.hamburger__line--cross02 {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.hamburger__line {
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	-webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger__line-in {
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	-webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.hamburger__line-in::before,
+.hamburger__line-in::after {
+	-webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+}
+
+.hamburger__line-in--cross01,
+.hamburger__line-in--cross02 {
+	-webkit-transform: translateX(-33.3%);
+	transform: translateX(-33.3%);
+}
+
+.hamburger__line-in--01 {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.hamburger__line-in--02 {
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+}
+
+.hamburger__line-in--02::before,
+.hamburger__line-in--02::after {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hamburger__line-in--03 {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.hamburger__line-in--03::before,
+.hamburger__line-in--03::after {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hamburger__line-in--cross01 {
+	-webkit-transition-delay: 0.0s;
+	transition-delay: 0.0s;
+}
+
+.hamburger__line-in--cross02 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hamburger__line-in--cross02::before,
+.hamburger__line-in--cross02::after {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--01,
+.hamburger.is-opened-navi .hamburger__line-in--02,
+.hamburger.is-opened-navi .hamburger__line-in--03 {
+	-webkit-transform: translateX(33.3%);
+	transform: translateX(33.3%);
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--cross01,
+.hamburger.is-opened-navi .hamburger__line-in--cross02 {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--01 {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--02 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--03 {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--cross01 {
+	-webkit-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+}
+
+.hamburger.is-opened-navi .hamburger__line-in--cross02 {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.hamburger:hover .hamburger__line-in::before,
+.hamburger:hover .hamburger__line-in::after {
+	-webkit-transform: translateX(200%);
+	transform: translateX(200%);
+}
+
+.hamburger:hover .hamburger__line-in--01::before,
+.hamburger:hover .hamburger__line-in--01::after,
+.hamburger:hover .hamburger__line-in--02::before,
+.hamburger:hover .hamburger__line-in--02::after,
+.hamburger:hover .hamburger__line-in--03::before,
+.hamburger:hover .hamburger__line-in--03::after {
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.hamburger:hover .hamburger__line-in--cross01::before,
+.hamburger:hover .hamburger__line-in--cross01::after,
+.hamburger:hover .hamburger__line-in--cross02::before,
+.hamburger:hover .hamburger__line-in--cross02::after {
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+
+.hamburger.is-opened-navi:hover .hamburger__line-in--cross01::before,
+.hamburger.is-opened-navi:hover .hamburger__line-in--cross01::after,
+.hamburger.is-opened-navi:hover .hamburger__line-in--cross02::before,
+.hamburger.is-opened-navi:hover .hamburger__line-in--cross02::after {
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.hamburger.is-opened-navi:hover .hamburger__line-in--01::before,
+.hamburger.is-opened-navi:hover .hamburger__line-in--01::after,
+.hamburger.is-opened-navi:hover .hamburger__line-in--02::before,
+.hamburger.is-opened-navi:hover .hamburger__line-in--02::after,
+.hamburger.is-opened-navi:hover .hamburger__line-in--03::before,
+.hamburger.is-opened-navi:hover .hamburger__line-in--03::after {
+	-webkit-transition-duration: 0s;
+	transition-duration: 0s;
+}
+</style>
+
  </head>
  <body>
 
+  <!--HTML Widget code-->
+  
+
+  
   <div class="breakpoint active" id="bp_infinity" data-min-width="1161"><!-- responsive breakpoint node -->
    <div class="scroll3 clearfix borderbox" id="page"><!-- group -->
     <div class="size_fixed grpelem shared_content" id="u28382" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u28382_content"><!-- custom html -->
@@ -124,19 +608,65 @@ transform-origin: center;
     </div>
     <div class="clearfix grpelem" id="pu27648"><!-- column -->
      <div class="browser_width colelem" id="u27648-bw">
-      <div id="u27648"><!-- column -->
+      <div id="u27648"><!-- group -->
        <div class="clearfix" id="u27648_align_to_page">
-        <a class="nonblock nontext clearfix colelem shared_content" id="u17586-4" href="index.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u17586-4_content"><!-- content --><p>SZ</p></a>
-        <div class="scroll1 clearfix colelem shared_content" id="u27649-5" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u27649-5_content"><!-- content -->
-         <p><span id="u27649">Arbor Green</span> is a website for young military personnel who decide to transition into a civilian career. They can explore targeted career options based on their skills, and see how they can sell themselves as a unique candidate for the job.</p>
+        <div class="clearfix grpelem" id="pu17586-4"><!-- column -->
+         <a class="nonblock nontext clearfix colelem shared_content" id="u17586-4" href="index.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u17586-4_content"><!-- content --><p>SZ</p></a>
+         <div class="scroll1 clearfix colelem shared_content" id="u27649-5" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u27649-5_content"><!-- content -->
+          <p><span id="u27649">Arbor Green</span> is a website for young military personnel who decide to transition into a civilian career. They can explore targeted career options based on their skills, and see how they can sell themselves as a unique candidate for the job.</p>
+         </div>
+         <div class="clearfix colelem" id="u28241"><!-- group -->
+          <div class="clip_frame grpelem" id="u27784"><!-- image -->
+           <img class="block temp_no_img_src" id="u27784_img" data-orig-src="images/mock%20dsktpasset%209%402x-crop-u27784.png?crc=4187512592" alt="" data-heightwidthratio="0.5442477876106194" data-image-width="1130" data-image-height="615" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clip_frame grpelem shared_content" id="u27848" data-content-guid="u27848_content"><!-- svg -->
+           <img class="svg temp_no_img_src" id="u28154" data-orig-src="images/profession-desktop.svg?crc=20030858" alt="" data-mu-svgfallback="images/profession%20desktop_poster_.png?crc=386952424" data-heightwidthratio="0.9493506493506494" data-image-width="770" data-image-height="731" src="images/blank.gif?crc=4208392903"/>
+          </div>
+         </div>
         </div>
-        <div class="clearfix colelem" id="u28241"><!-- group -->
-         <div class="clip_frame grpelem" id="u27784"><!-- image -->
-          <img class="block temp_no_img_src" id="u27784_img" data-orig-src="images/mock%20dsktpasset%209%402x-crop-u27784.png?crc=4187512592" alt="" data-heightwidthratio="0.5442477876106194" data-image-width="1130" data-image-height="615" src="images/blank.gif?crc=4208392903"/>
-         </div>
-         <div class="clip_frame grpelem shared_content" id="u27848" data-content-guid="u27848_content"><!-- svg -->
-          <img class="svg temp_no_img_src" id="u28154" data-orig-src="images/profession-desktop.svg?crc=20030858" alt="" data-mu-svgfallback="images/profession%20desktop_poster_.png?crc=386952424" data-heightwidthratio="0.9493506493506494" data-image-width="770" data-image-height="731" src="images/blank.gif?crc=4208392903"/>
-         </div>
+        <div class="size_fixed grpelem shared_content" id="u36172" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u36172_content"><!-- custom html -->
+         
+  <div class="hamburger hamburger--demo-3 js-hover">
+    <div class="hamburger__line hamburger__line--01">
+      <div class="hamburger__line-in hamburger__line-in--01"></div>
+    </div>
+    <div class="hamburger__line hamburger__line--02">
+      <div class="hamburger__line-in hamburger__line-in--02"></div>
+    </div>
+    <div class="hamburger__line hamburger__line--03">
+      <div class="hamburger__line-in hamburger__line-in--03"></div>
+    </div>
+    <div class="hamburger__line hamburger__line--cross01">
+      <div class="hamburger__line-in hamburger__line-in--cross01"></div>
+    </div>
+    <div class="hamburger__line hamburger__line--cross02">
+      <div class="hamburger__line-in hamburger__line-in--cross02"></div>
+    </div>
+  </div>
+  <div class="global-menu">
+    <div id="svgmu" class="global-menu__wrap">
+    </div>
+  </div>
+  <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%"   stop-color="#202020"/>
+        <stop offset="100%" stop-color="#000000"/>
+      </linearGradient>
+      <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%"   stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#FFFFFF"/>
+      </linearGradient>
+      <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%"   stop-color="#202020"/>
+        <stop offset="100%" stop-color="#202020"/>
+      </linearGradient>
+    </defs>
+    <path class="shape-overlays__path"></path>
+    <path class="shape-overlays__path"></path>
+    <path class="shape-overlays__path"></path>
+  </svg>
+
         </div>
        </div>
       </div>
@@ -373,24 +903,52 @@ transform-origin: center;
        <a class="nonblock nontext clearfix colelem shared_content" id="u33800-4" href="research.html" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-content-guid="u33800-4_content"><!-- content --><p>VIEW INITIAL RESEARCH &gt;</p></a>
       </div>
      </div>
+     <div class="browser_width colelem shared_content" id="u37906-bw" data-content-guid="u37906-bw_content">
+      <div id="u37906"><!-- group -->
+       <div class="clearfix" id="u37906_align_to_page">
+        <div class="clearfix grpelem" id="u37907-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>Skills</p>
+        </div>
+        <div class="clearfix grpelem" id="u37908-17" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p id="u37908-2">Collaborative Storytelling</p>
+         <p id="u37908-4">Bodystorming</p>
+         <p id="u37908-6">Rapid Prototyping</p>
+         <p id="u37908-8">Think Aloud</p>
+         <p id="u37908-10">Card Sorting</p>
+         <p id="u37908-12">Heuristic Evaluations</p>
+         <p id="u37908-14">System Usability Tests</p>
+         <p>&nbsp;</p>
+        </div>
+        <div class="clearfix grpelem" id="u37909-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>Tools</p>
+        </div>
+        <div class="clearfix grpelem" id="u37910-16" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p id="u37910-2">Balsamiq</p>
+         <p id="u37910-4">Sketch</p>
+         <p id="u37910-6">Adobe Illustrator</p>
+         <p id="u37910-8">Adobe Photoshop</p>
+         <p id="u37910-10">Invision</p>
+         <p id="u37910-12">Principle</p>
+         <p id="u37910-13">&nbsp;</p>
+         <p>&nbsp;</p>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
-    <div class="clearfix grpelem" id="pu34233-4"><!-- group -->
-     <div class="browser_width shared_content" id="u34233-4-bw" data-content-guid="u34233-4-bw_content">
+    <div class="verticalspacer" data-offset-top="10894" data-content-above-spacer="10894" data-content-below-spacer="127" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="clearfix grpelem" id="pu34233-4"><!-- column -->
+     <div class="browser_width colelem shared_content" id="u34233-4-bw" data-content-guid="u34233-4-bw_content">
       <div class="clearfix" id="u34233-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
        <p>© 2018 designed by Sharon Zachariah</p>
       </div>
      </div>
-     <div id="u34234-wrapper">
-      <a class="nonblock nontext clip_frame" id="u34234" href="http://linkedin.com/in/zachariahsharon/"><!-- svg --><img class="svg temp_no_img_src" id="u34235" data-orig-src="images/linkedin-logo.svg?crc=53867140" alt="" data-mu-svgfallback="images/linkedin-logo_poster_.png?crc=3994403120" data-heightwidthratio="1" data-image-width="28" data-image-height="28" src="images/blank.gif?crc=4208392903"/></a>
-     </div>
-     <div id="u34236-wrapper">
-      <a class="nonblock nontext clip_frame" id="u34236" href="mailto:sharonzachariah83@gmail.com"><!-- svg --><img class="svg temp_no_img_src" id="u34237" data-orig-src="images/envelope.svg?crc=4008417060" alt="" data-mu-svgfallback="images/envelope_poster_.png?crc=3859148872" data-heightwidthratio="1" data-image-width="28" data-image-height="28" src="images/blank.gif?crc=4208392903"/></a>
-     </div>
-     <div id="u34238-wrapper" class="shared_content" data-content-guid="u34238-wrapper_content">
-      <a class="nonblock nontext clip_frame" id="u34238" href="https://github.com/sharonzachariah/"><!-- svg --><img class="svg temp_no_img_src" id="u34239" data-orig-src="images/github-logo.svg?crc=3988996036" alt="" data-mu-svgfallback="images/github-logo_poster_.png?crc=3918314536" data-heightwidthratio="1" data-image-width="32" data-image-height="32" src="images/blank.gif?crc=4208392903"/></a>
+     <div class="clearfix colelem" id="pu34234"><!-- group -->
+      <a class="nonblock nontext clip_frame grpelem" id="u34234" href="http://linkedin.com/in/zachariahsharon/"><!-- svg --><img class="svg temp_no_img_src" id="u34235" data-orig-src="images/linkedin-logo.svg?crc=53867140" alt="" data-mu-svgfallback="images/linkedin-logo_poster_.png?crc=3994403120" data-heightwidthratio="1" data-image-width="28" data-image-height="28" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u34236" href="mailto:sharonzachariah83@gmail.com"><!-- svg --><img class="svg temp_no_img_src" id="u34237" data-orig-src="images/envelope.svg?crc=4008417060" alt="" data-mu-svgfallback="images/envelope_poster_.png?crc=3859148872" data-heightwidthratio="1" data-image-width="28" data-image-height="28" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem shared_content" id="u34238" href="https://github.com/sharonzachariah/" data-content-guid="u34238_content"><!-- svg --><img class="svg temp_no_img_src" id="u34239" data-orig-src="images/github-logo.svg?crc=3988996036" alt="" data-mu-svgfallback="images/github-logo_poster_.png?crc=3918314536" data-heightwidthratio="1" data-image-width="32" data-image-height="32" src="images/blank.gif?crc=4208392903"/></a>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="10459" data-content-above-spacer="10458" data-content-below-spacer="220" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1160" data-min-width="961" data-max-width="1160"><!-- responsive breakpoint node -->
@@ -404,22 +962,28 @@ transform-origin: center;
      <span class="size_fixed colelem placeholder" data-placeholder-for="u28203_content"><!-- placeholder node --></span>
     </div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu28834_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu27648"><!-- column -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u27648-bw">
-      <div class="temp_no_id" data-orig-id="u27648"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u27648_align_to_page">
-        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
-        <span class="scroll1 clearfix colelem placeholder" data-placeholder-for="u27649-5_content"><!-- placeholder node --></span>
-        <div class="clearfix colelem temp_no_id" data-orig-id="u28241"><!-- group -->
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u27784"><!-- image -->
-          <img class="block temp_no_id temp_no_img_src" data-orig-src="images/mock%20dsktpasset%209%402x-crop-u277842.png?crc=259702553" alt="" data-heightwidthratio="0.544290288153682" data-image-width="937" data-image-height="510" data-orig-id="u27784_img" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem" id="ppu27648"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu27648"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u27648-bw">
+       <div class="temp_no_id" data-orig-id="u27648"><!-- column -->
+        <div class="clearfix temp_no_id" data-orig-id="u27648_align_to_page">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu17586-4"><!-- group -->
+          <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
+          <span class="size_fixed grpelem placeholder" data-placeholder-for="u36172_content"><!-- placeholder node --></span>
          </div>
-         <div class="clip_frame grpelem temp_no_id" data-orig-id="u27848"><!-- svg -->
-          <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/profession-desktop.svg?crc=20030858" alt="" data-mu-svgfallback="images/profession%20desktop_poster_.png?crc=386952424" data-heightwidthratio="0.9498432601880877" data-image-width="638" data-image-height="606" data-orig-id="u28154" src="images/blank.gif?crc=4208392903"/>
+         <span class="scroll1 clearfix colelem placeholder" data-placeholder-for="u27649-5_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="u28241"><!-- group -->
+          <div class="clip_frame grpelem temp_no_id" data-orig-id="u27784"><!-- image -->
+           <img class="block temp_no_id temp_no_img_src" data-orig-src="images/mock%20dsktpasset%209%402x-crop-u277842.png?crc=259702553" alt="" data-heightwidthratio="0.544290288153682" data-image-width="937" data-image-height="510" data-orig-id="u27784_img" src="images/blank.gif?crc=4208392903"/>
+          </div>
+          <div class="clip_frame grpelem temp_no_id" data-orig-id="u27848"><!-- svg -->
+           <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/profession-desktop.svg?crc=20030858" alt="" data-mu-svgfallback="images/profession%20desktop_poster_.png?crc=386952424" data-heightwidthratio="0.9498432601880877" data-image-width="638" data-image-height="606" data-orig-id="u28154" src="images/blank.gif?crc=4208392903"/>
+          </div>
          </div>
         </div>
        </div>
       </div>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u34233-4-bw_content"><!-- placeholder node --></span>
      </div>
      <div class="clearfix colelem temp_no_id" data-orig-id="pu29344"><!-- group -->
       <div class="clip_frame grpelem temp_no_id" data-orig-id="u29344"><!-- svg -->
@@ -544,9 +1108,9 @@ transform-origin: center;
       </div>
      </div>
      <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u33800-4_content"><!-- placeholder node --></span>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u37906-bw_content"><!-- placeholder node --></span>
     </div>
-    <span class="browser_width placeholder" data-placeholder-for="u34233-4-bw_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="10127" data-content-above-spacer="10127" data-content-below-spacer="201" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="10612" data-content-above-spacer="10612" data-content-below-spacer="122" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://linkedin.com/in/zachariahsharon/" data-orig-id="u34234"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/linkedin-logo.svg?crc=53867140" alt="" data-mu-svgfallback="images/linkedin-logo_poster_.png?crc=3994403120" data-heightwidthratio="1" data-image-width="27" data-image-height="27" data-orig-id="u34235" src="images/blank.gif?crc=4208392903"/></a>
     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="mailto:sharonzachariah83@gmail.com" data-orig-id="u34236"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/envelope.svg?crc=4008417060" onload="this.style.height=(this.offsetWidth*30.208333333333258/31.416666666666657)+'px'" alt="" data-heightwidthratio="0.967741935483871" data-image-width="31" data-image-height="30" data-orig-id="u34237" src="images/blank.gif?crc=4208392903"/></a>
     <a class="nonblock nontext clip_frame grpelem temp_no_id" href="https://github.com/sharonzachariah/" data-orig-id="u34238"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/github-logo.svg?crc=3988996036" alt="" data-mu-svgfallback="images/github-logo_poster_.png?crc=3918314536" data-heightwidthratio="1" data-image-width="34" data-image-height="34" data-orig-id="u34239" src="images/blank.gif?crc=4208392903"/></a>
@@ -567,7 +1131,10 @@ transform-origin: center;
      <div class="browser_width colelem temp_no_id" data-orig-id="u27648-bw">
       <div class="temp_no_id" data-orig-id="u27648"><!-- column -->
        <div class="clearfix temp_no_id" data-orig-id="u27648_align_to_page">
-        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu17586-4"><!-- group -->
+         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
+         <span class="size_fixed grpelem placeholder" data-placeholder-for="u36172_content"><!-- placeholder node --></span>
+        </div>
         <span class="scroll1 clearfix colelem placeholder" data-placeholder-for="u27649-5_content"><!-- placeholder node --></span>
         <div class="clearfix colelem temp_no_id" data-orig-id="u28241"><!-- group -->
          <div class="clip_frame grpelem temp_no_id" data-orig-id="u27784"><!-- image -->
@@ -679,18 +1246,17 @@ transform-origin: center;
       </div>
       <span class="clearfix grpelem placeholder" data-placeholder-for="pu33722-4_content"><!-- placeholder node --></span>
      </div>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u37906-bw_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem temp_no_id shared_content" data-orig-id="pu34233-4" data-content-guid="pu34233-4_content"><!-- group -->
-     <span class="browser_width placeholder" data-placeholder-for="u34233-4-bw_content"><!-- placeholder node --></span>
-     <div class="temp_no_id" data-orig-id="u34234-wrapper">
-      <a class="nonblock nontext clip_frame temp_no_id" href="http://linkedin.com/in/zachariahsharon/" data-orig-id="u34234"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/linkedin-logo.svg?crc=53867140" alt="" data-mu-svgfallback="images/linkedin-logo_poster_.png?crc=3994403120" data-heightwidthratio="1" data-image-width="32" data-image-height="32" data-orig-id="u34235" src="images/blank.gif?crc=4208392903"/></a>
+    <div class="verticalspacer" data-offset-top="9391" data-content-above-spacer="9390" data-content-below-spacer="128" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="clearfix grpelem temp_no_id shared_content" data-orig-id="pu34233-4" data-content-guid="pu34233-4_content"><!-- column -->
+     <span class="browser_width colelem placeholder" data-placeholder-for="u34233-4-bw_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu34234"><!-- group -->
+      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://linkedin.com/in/zachariahsharon/" data-orig-id="u34234"><!-- svg --><img class="svg temp_no_id temp_no_img_src" data-orig-src="images/linkedin-logo.svg?crc=53867140" alt="" data-mu-svgfallback="images/linkedin-logo_poster_.png?crc=3994403120" data-heightwidthratio="1" data-image-width="32" data-image-height="32" data-orig-id="u34235" src="images/blank.gif?crc=4208392903"/></a>
+      <a class="nonblock nontext clip_frame grpelem temp_no_id" href="mailto:sharonzachariah83@gmail.com" data-orig-id="u34236"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/envelope.svg?crc=4008417060" onload="this.style.height=(this.offsetWidth*64/68)+'px'" alt="" data-heightwidthratio="0.9411764705882353" data-image-width="68" data-image-height="64" data-orig-id="u34237" src="images/blank.gif?crc=4208392903"/></a>
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u34238_content"><!-- placeholder node --></span>
      </div>
-     <div class="temp_no_id" data-orig-id="u34236-wrapper">
-      <a class="nonblock nontext clip_frame temp_no_id" href="mailto:sharonzachariah83@gmail.com" data-orig-id="u34236"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="images/envelope.svg?crc=4008417060" onload="this.style.height=(this.offsetWidth*32/34)+'px'" alt="" data-heightwidthratio="0.9411764705882353" data-image-width="34" data-image-height="32" data-orig-id="u34237" src="images/blank.gif?crc=4208392903"/></a>
-     </div>
-     <span class="placeholder" data-placeholder-for="u34238-wrapper_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="9011" data-content-above-spacer="9011" data-content-below-spacer="213" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
@@ -710,7 +1276,10 @@ transform-origin: center;
      <div class="browser_width colelem temp_no_id" data-orig-id="u27648-bw">
       <div class="temp_no_id" data-orig-id="u27648"><!-- column -->
        <div class="clearfix temp_no_id" data-orig-id="u27648_align_to_page">
-        <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu17586-4"><!-- group -->
+         <span class="nonblock nontext clearfix grpelem placeholder" data-placeholder-for="u17586-4_content"><!-- placeholder node --></span>
+         <span class="size_fixed grpelem placeholder" data-placeholder-for="u36172_content"><!-- placeholder node --></span>
+        </div>
         <span class="scroll1 clearfix colelem placeholder" data-placeholder-for="u27649-5_content"><!-- placeholder node --></span>
         <div class="clearfix colelem temp_no_id" data-orig-id="u28241"><!-- group -->
          <div class="clip_frame grpelem temp_no_id" data-orig-id="u27784"><!-- image -->
@@ -835,9 +1404,44 @@ transform-origin: center;
      <span class="scroll3 clearfix colelem placeholder" data-placeholder-for="u33725-4_content"><!-- placeholder node --></span>
      <span class="Button clearfix colelem placeholder" data-placeholder-for="pbuttonu33794_content"><!-- placeholder node --></span>
      <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u33800-4_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u37906-bw">
+      <div class="temp_no_id" data-orig-id="u37906"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u37906_align_to_page">
+        <div class="clearfix grpelem" id="pu38096-4"><!-- column -->
+         <div class="clearfix colelem" id="u38096-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+          <p>Skills</p>
+         </div>
+         <div class="clearfix colelem" id="u38097-17" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+          <p id="u38097-2">Collaborative Storytelling</p>
+          <p id="u38097-4">Bodystorming</p>
+          <p id="u38097-6">Rapid Prototyping</p>
+          <p id="u38097-8">Think Aloud</p>
+          <p id="u38097-10">Card Sorting</p>
+          <p id="u38097-12">Heuristic Evaluations</p>
+          <p id="u38097-14">System Usability Tests</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="pu38098-4"><!-- column -->
+         <div class="clearfix colelem" id="u38098-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+          <p>Tools</p>
+         </div>
+         <div class="clearfix colelem" id="u38099-15" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+          <p id="u38099-2">Balsamiq</p>
+          <p id="u38099-4">Sketch</p>
+          <p id="u38099-6">Adobe Illustrator</p>
+          <p id="u38099-8">Adobe Photoshop</p>
+          <p id="u38099-10">Invision</p>
+          <p id="u38099-12">Principle</p>
+          <p>&nbsp;</p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
+    <div class="verticalspacer" data-offset-top="12967" data-content-above-spacer="12966" data-content-below-spacer="100" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu34233-4_content"><!-- placeholder node --></span>
-    <div class="verticalspacer" data-offset-top="12551" data-content-above-spacer="12551" data-content-below-spacer="213" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -937,6 +1541,254 @@ $('.scroll3').attr('data-aos-once','false');
 		Muse.Assert.fail('Error with Widget:Simple and Sweet On Scroll Animations (1.3) ParamHTMLOnDocReady Handler ' + e.toString());
 	}
 })();/* Widget:Simple and Sweet On Scroll Animations (1.3) */
+(function(){
+	try{
+
+if(3 == 1){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a>";
+}
+else if(3 == 2){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a>";
+}
+else if(3 == 3){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a>";
+}
+else if(3 == 4){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a>";
+}
+else if(3 == 5){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a>";
+}
+else if(3 == 6){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a>";
+}
+else if(3 == 7){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a>";
+}
+else if(3 == 8){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor8' target='_self'>Menu Item 8</a>";
+}
+else if(3 == 9){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor8' target='_self'>Menu Item 8</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor9' target='_self'>Menu Item 9</a>";
+}
+else if(3 == 10){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor8' target='_self'>Menu Item 8</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor9' target='_self'>Menu Item 9</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor10' target='_self'>Menu Item 10</a>";
+}
+else if(3 == 11){
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor8' target='_self'>Menu Item 8</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor9' target='_self'>Menu Item 9</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor10' target='_self'>Menu Item 10</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor11' target='_self'>Menu Item 11</a>";
+}
+else{
+document.getElementById('svgmu').innerHTML = "<a class='global-menu__item global-menu__item--demo-6' href='./index.html' target='_self'>Work</a><a class='global-menu__item global-menu__item--demo-6' href='https://drive.google.com/file/d/10Vd_IMs-sWnFA7EWKDCYkH2XcD_bhzoi/view?usp=sharing' target='_blank'>Resume</a><a class='global-menu__item global-menu__item--demo-6' href='mailto:sharonzachariah83@gmail.com' target='_blank'>Contact</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor4' target='_self'></a><a class='global-menu__item global-menu__item--demo-6' href='#anchor5' target='_self'>Menu Item 5</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor6' target='_self'>Menu Item 6</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor7' target='_self'>Menu Item 7</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor8' target='_self'>Menu Item 8</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor9' target='_self'>Menu Item 9</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor10' target='_self'>Menu Item 10</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor11' target='_self'>Menu Item 11</a><a class='global-menu__item global-menu__item--demo-6' href='#anchor12' target='_self'>Menu Item 12</a>";
+}
+
+require(['https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js'], function() {
+//
+// these easing functions are based on the code of glsl-easing module.
+// https://github.com/glslify/glsl-easings
+//
+
+const ease = {
+  exponentialIn: (t) => {
+    return t == 0.0 ? t : Math.pow(2.0, 10.0 * (t - 1.0));
+  },
+  exponentialOut: (t) => {
+    return t == 1.0 ? t : 1.0 - Math.pow(2.0, -10.0 * t);
+  },
+  exponentialInOut: (t) => {
+    return t == 0.0 || t == 1.0
+      ? t
+      : t < 0.5
+        ? +0.5 * Math.pow(2.0, (20.0 * t) - 10.0)
+        : -0.5 * Math.pow(2.0, 10.0 - (t * 20.0)) + 1.0;
+  },
+  sineOut: (t) => {
+    const HALF_PI = 1.5707963267948966;
+    return Math.sin(t * HALF_PI);
+  },
+  circularInOut: (t) => {
+    return t < 0.5
+        ? 0.5 * (1.0 - Math.sqrt(1.0 - 4.0 * t * t))
+        : 0.5 * (Math.sqrt((3.0 - 2.0 * t) * (2.0 * t - 1.0)) + 1.0);
+  },
+  cubicIn: (t) => {
+    return t * t * t;
+  },
+  cubicOut: (t) => {
+    const f = t - 1.0;
+    return f * f * f + 1.0;
+  },
+  cubicInOut: (t) => {
+    return t < 0.5
+      ? 4.0 * t * t * t
+      : 0.5 * Math.pow(2.0 * t - 2.0, 3.0) + 1.0;
+  },
+  quadraticOut: (t) => {
+    return -t * (t - 2.0);
+  },
+  quarticOut: (t) => {
+    return Math.pow(t - 1.0, 3.0) * (1.0 - t) + 1.0;
+  },
+}
+
+class ShapeOverlays {
+  constructor(elm) {
+    this.elm = elm;
+    this.path = elm.querySelectorAll('path');
+    this.numPoints = 10;
+    this.duration = 900;
+    this.delayPointsArray = [];
+    this.delayPointsMax = 300;
+    this.delayPerPath = 250;
+    this.timeStart = Date.now();
+    this.isOpened = false;
+    this.isAnimating = false;
+  }
+  toggle() {
+    this.isAnimating = true;
+    for (var i = 0; i < this.numPoints; i++) {
+      this.delayPointsArray[i] = Math.random() * this.delayPointsMax;
+    }
+    if (this.isOpened === false) {
+      this.open();
+    } else {
+      this.close();
+    }
+  }
+  open() {
+    this.isOpened = true;
+    this.elm.classList.add('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  close() {
+    this.isOpened = false;
+    this.elm.classList.remove('is-opened');
+    this.timeStart = Date.now();
+    this.renderLoop();
+  }
+  updatePath(time) {
+    const points = [];
+    for (var i = 0; i < this.numPoints; i++) {
+      points[i] = (1 - ease.cubicInOut(Math.min(Math.max(time - this.delayPointsArray[i], 0) / this.duration, 1))) * 100
+    }
+
+    let str = '';
+    str += (this.isOpened) ? `M 0 0 V ${points[0]}` : `M 0 ${points[0]}`;
+    for (var i = 0; i < this.numPoints - 1; i++) {
+      const p = (i + 1) / (this.numPoints - 1) * 100;
+      const cp = p - (1 / (this.numPoints - 1) * 100) / 2;
+      str += `C ${cp} ${points[i]} ${cp} ${points[i + 1]} ${p} ${points[i + 1]} `;
+    }
+    str += (this.isOpened) ? `V 100 H 0` : `V 0 H 0`;
+    return str;
+  }
+  render() {
+    if (this.isOpened) {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * i)));
+      }
+    } else {
+      for (var i = 0; i < this.path.length; i++) {
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * (this.path.length - i - 1))));
+      }
+    }
+  }
+  renderLoop() {
+    this.render();
+    if (Date.now() - this.timeStart < this.duration + this.delayPerPath * (this.path.length - 1) + this.delayPointsMax) {
+      requestAnimationFrame(() => {
+        this.renderLoop();
+      });
+    }
+    else {
+      this.isAnimating = false;
+    }
+  }
+}
+
+(function() {
+  const elmHamburger = document.querySelector('.hamburger');
+  const gNavItems = document.querySelectorAll('.global-menu__item');
+  const elmOverlay = document.querySelector('.shape-overlays');
+  const overlay = new ShapeOverlays(elmOverlay);
+  const gNavWrap = document.querySelector('.global-menu__wrap');
+
+  elmHamburger.addEventListener('click', () => {
+    if (overlay.isAnimating) {
+      return false;
+    }
+    overlay.toggle();
+    if (overlay.isOpened === true) {
+      elmHamburger.classList.add('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.add('is-opened');
+      }
+    } else {
+      elmHamburger.classList.remove('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.remove('is-opened');
+      }
+    }
+  });
+  elmOverlay.addEventListener('click', () => {
+    if (overlay.isAnimating) {
+      return false;
+    }
+    overlay.toggle();
+    if (overlay.isOpened === true) {
+      elmHamburger.classList.add('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.add('is-opened');
+      }
+    } else {
+      elmHamburger.classList.remove('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.remove('is-opened');
+      }
+    }
+  });
+$('.global-menu__wrap a[href*="#"]:not([href="#"])').click(function() {
+    if (overlay.isAnimating) {
+      return false;
+    }
+    overlay.toggle();
+    if (overlay.isOpened === true) {
+      elmHamburger.classList.add('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.add('is-opened');
+      }
+    } else {
+      elmHamburger.classList.remove('is-opened-navi');
+      for (var i = 0; i < gNavItems.length; i++) {
+        gNavItems[i].classList.remove('is-opened');
+      }
+    }
+});
+}());
+
+$(function() {
+  $('.global-menu__wrap a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top -0
+        }, 1000, 'linear');
+        return false;
+      }
+    }
+  });
+});
+
+});
+
+	}
+	catch(e)
+	{
+		Muse.Assert.fail('Error with Widget:SVG Menus - Menu 6 (1.0) ParamHTMLOnDocReady Handler ' + e.toString());
+	}
+})();/* Widget:SVG Menus - Menu 6 (1.0) */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
