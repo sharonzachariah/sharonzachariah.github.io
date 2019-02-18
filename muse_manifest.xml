@@ -1,20 +1,20 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="sharonzachariah.com" resolutions="1x" timestamp="1538002405878">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://sharonzachariah.github.io" resolutions="1x" timestamp="1550458668422">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_white-header.css" crc="4249227924" ref="cooper:arbor-green:research:tinker"/>
-    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="cooper:arbor-green:research:tinker"/>
-    <file name="master_a-master.css" crc="7188909" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="508770084" ref="index"/>
-    <file name="index.css" crc="499476340" ref="index"/>
-    <file name="nomq_index.css" crc="3897338154" ref="index"/>
-    <file name="cooper.css" crc="349867839" ref="cooper"/>
-    <file name="nomq_cooper.css" crc="503227064" ref="cooper"/>
-    <file name="arbor-green.css" crc="3929216188" ref="arbor-green"/>
-    <file name="nomq_arbor-green.css" crc="257771483" ref="arbor-green"/>
-    <file name="research.css" crc="4056165226" ref="research"/>
-    <file name="nomq_research.css" crc="38370880" ref="research"/>
-    <file name="tinker.css" crc="3949293396" ref="tinker"/>
+    <file name="master_white-header.css" crc="4191307913" ref="arbor-green:research:tinker:cooper"/>
+    <file name="nomq_preview_master_white-header.css" crc="3824530138" ref="arbor-green:research:tinker:cooper"/>
+    <file name="master_a-master.css" crc="294330993" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="176268983" ref="index"/>
+    <file name="index.css" crc="524775761" ref="index"/>
+    <file name="nomq_index.css" crc="415783357" ref="index"/>
+    <file name="arbor-green.css" crc="476916558" ref="arbor-green"/>
+    <file name="nomq_arbor-green.css" crc="3822390732" ref="arbor-green"/>
+    <file name="research.css" crc="4046843943" ref="research"/>
+    <file name="nomq_research.css" crc="3908076149" ref="research"/>
+    <file name="tinker.css" crc="41796889" ref="tinker"/>
     <file name="nomq_tinker.css" crc="4046587115" ref="tinker"/>
+    <file name="cooper.css" crc="361029330" ref="cooper"/>
+    <file name="nomq_cooper.css" crc="130189832" ref="cooper"/>
   </folder>
   <folder name="assets">
     <file name="profession-desktop.webp" crc="3852306553" seo="true" mt="1537638976000"/>
@@ -71,10 +71,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
@@ -84,6 +80,10 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
@@ -97,10 +97,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
@@ -110,6 +106,10 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
@@ -123,10 +123,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
-      <caption webpage="research" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
       <caption webpage="cooper" alt=""/>
@@ -136,6 +132,10 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
+      <caption webpage="research" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
       <caption webpage="tinker" alt=""/>
@@ -234,7 +234,7 @@
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="artwork 41_poster_.png" crc="198157664" ref="cooper"/>
-    <file name="screenshot 2018-06-05 234247-crop-u2390.jpg" crc="3867694353" seo="true" ref="cooper">
+    <file name="screenshot 2018-06-05 234247-crop-u2390.jpg" crc="3836895091" seo="true" ref="cooper">
       <caption webpage="cooper" alt=""/>
     </file>
     <file name="img_5210-crop-u2378.jpg" crc="3892802659" seo="true" ref="cooper">
@@ -482,13 +482,13 @@
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
     </file>
-    <file name="job-description-copy-14.svg" crc="204564873" seo="true" ref="arbor-green">
+    <file name="job-description-copy-14.svg" crc="3807960432" seo="true" ref="arbor-green">
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
       <caption webpage="arbor-green" alt=""/>
     </file>
-    <file name="job description copy 14_poster_.png" crc="3978072440" ref="arbor-green"/>
+    <file name="job description copy 14_poster_.png" crc="385457397" ref="arbor-green"/>
     <file name="img_6319670x503.jpg" crc="383716459" seo="true" ref="arbor-green">
       <caption webpage="arbor-green" alt=""/>
     </file>
@@ -561,9 +561,9 @@
       <caption webpage="arbor-green" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3804367300" seo="true" mt="1537999636696" redirect="true"/>
-  <file name="research.html" crc="243096512" seo="true" mt="1538002166550" redirect="true"/>
-  <file name="cooper.html" crc="518834447" seo="true" mt="1538002235420" redirect="true"/>
-  <file name="arbor-green.html" crc="56645163" seo="true" mt="1538002216639" redirect="true"/>
-  <file name="tinker.html" crc="4128437928" seo="true" mt="1537985576624" redirect="true"/>
+  <file name="index.html" crc="312710979" seo="true" mt="1550458647093" redirect="true"/>
+  <file name="research.html" crc="531735424" seo="true" mt="1549645931719" redirect="true"/>
+  <file name="cooper.html" crc="4145890563" seo="true" mt="1549645931719" redirect="true"/>
+  <file name="arbor-green.html" crc="3914692134" seo="true" mt="1549646370662" redirect="true"/>
+  <file name="tinker.html" crc="4207878142" seo="true" mt="1549645931719" redirect="true"/>
 </manifest>
